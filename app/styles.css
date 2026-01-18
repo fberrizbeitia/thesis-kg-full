@@ -1,0 +1,129 @@
+ body {
+     margin: 0;
+     font-family: 'Inter', sans-serif;
+     /* Using Inter for a modern look */
+     background-color: #f3f4f6;
+     /* Light gray background */
+
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     padding: 1rem;
+     box-sizing: border-box;
+ }
+
+
+ .step-container{
+    display: block;
+    float: right;
+    width: 600px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    /* White background */
+    border-radius: 0.75rem;
+    /* Rounded corners */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    /* Ensures rounded corners apply to children */
+    height: 85vh;
+    margin-left: 2em;
+    padding: 1em;
+    overflow: auto;
+ }
+
+ .step-container-header{
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+    border-bottom: #1d4ed8 1px solid;
+ }
+
+  .step-container-header button{
+    height: 3em;
+    width: 3em;
+    border-radius: 5em;
+    border: #333 solid 1px;
+  }
+
+ .step-container h2{
+    color: #1d4ed8;
+    text-align: center;
+    
+ }
+
+ .main-container{
+    display: flex;
+    padding: 1em;
+   
+ }
+
+.step-result-container{
+    display: block;
+    font-size: 0.8em;
+    overflow-y: scroll;
+    height: 75vh;
+}
+
+ /*
+ ------------------- FORMS ---------------------------
+ */
+
+ .form-text-box{
+    width: 98%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+ }
+
+
+ 
+ .form-btn{
+    padding: 0.5em;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    width: 80%;
+ }
+
+ .form-list-container{
+    display: block;
+    width: 100%;
+ }
+
+ .form-button-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 2em;
+    width: 100%;
+ }
+
+ .form-button-menu-btn{
+    padding: 0.5em;
+    border-radius: 5px;
+    border: solid 1px #333;
+    color: #333;
+    background-color: #eee;
+    width: 80%;
+ }
+
+  .form-button-menu-btn:hover{
+    color: #eee;
+    background-color: #333;
+    cursor: pointer;
+ }
+
+ .form-list-container{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+ }
+
+ .form-list-container div{
+    padding: 0.5em;
+    border-bottom: #ccc 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    
+ }
+
+
+
+
+  

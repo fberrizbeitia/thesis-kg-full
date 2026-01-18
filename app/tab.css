@@ -1,0 +1,130 @@
+/* 
+ -----------------------------------------------------------------------------------
+ TAB COMPONENT
+ -----------------------------------------------------------------------------------
+ */
+ .tab-container {
+     background-color: #ffffff;
+   
+ }
+
+ /* Tab Buttons Container */
+ .tab-buttons-wrapper {
+     display: flex;
+     flex-wrap: wrap;
+     /* Allows tabs to wrap on smaller screens */
+     justify-content: center;
+     border-bottom: 1px solid #e5e7eb;
+     /* Bottom border for separation */
+     
+ }
+
+ /* Individual Tab Button Styling */
+ .tab-button {
+     padding: 0.75rem 1.5rem;
+     /* Padding for buttons */
+     font-size: 1.125rem;
+     /* Large font size */
+     font-weight: 500;
+     /* Medium font weight */
+     color: #4b5563;
+     /* Gray text color */
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
+     outline: none;
+     /* Remove default focus outline */
+     border-bottom: 2px solid transparent;
+     /* Transparent border for inactive state */
+ }
+
+ .tab-button:hover {
+     color: #2563eb;
+     /* Blue text on hover */
+     background-color: #f9fafb;
+     /* Light gray background on hover */
+ }
+
+ /* Active Tab Button Styling */
+ .tab-button.active {
+     color: #1d4ed8;
+     /* Darker blue for active tab */
+     border-bottom: 2px solid #1d4ed8;
+     /* Blue border for active tab */
+     background-color: #ffffff;
+     /* White background for active tab */
+ }
+
+ /* Responsive adjustments for tab buttons */
+ @media (min-width: 768px) {
+     .tab-button {
+         padding: 1rem 1.5rem;
+         /* Larger padding on desktop */
+     }
+
+     .tab-button:first-child {
+         border-top-left-radius: 0.75rem;
+         /* Rounded top-left corner for first tab on desktop */
+     }
+
+     .tab-button:last-child {
+         border-top-right-radius: 0.75rem;
+         /* Rounded top-right corner for last tab on desktop */
+     }
+ }
+
+ /* Tab Content Container */
+ .tab-content-wrapper {
+     padding: 1.5rem;
+     /* Padding around content */
+ }
+
+ /* Individual Tab Content Styling */
+ .tab-content {
+     display: none;
+     /* Hidden by default */
+     padding: 1.5rem;
+     /* Padding inside content box */
+     border-radius: 0.5rem;
+     /* Rounded corners for content box */
+ }
+
+ /* Active Tab Content */
+ .tab-content.active {
+     display: block;
+     /* Show when active */
+ }
+
+ 
+ /* Red-50, Red-800 */
+
+ /* Heading styles within tab content */
+ .tab-content h2 {
+     font-size: 1.5rem;
+     /* 2xl font size */
+     font-weight: 600;
+     /* Semibold font weight */
+     margin-bottom: 1rem;
+     /* Margin below heading */
+ }
+
+ /* Paragraph styles within tab content */
+ .tab-content p {
+     color: inherit;
+     /* Inherit color from parent */
+     margin-bottom: 1rem;
+ }
+
+ /* List styles within tab content */
+ .tab-content ul {
+     list-style: disc;
+     list-style-position: inside;
+     margin-top: 1rem;
+     color: inherit;
+     /* Inherit color from parent */
+ }
+
+ .tab-content ul li {
+     margin-bottom: 0.5rem;
+ }

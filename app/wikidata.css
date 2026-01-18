@@ -1,0 +1,103 @@
+.form-search-bar{
+    width: 100%;
+    display: block;
+ }
+
+ .form-list-container div{
+    padding: 0.5em;
+    border-bottom: #ccc 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
+    gap: 10px;
+    text-align: left;
+ }
+
+.form-list-container button{
+    border-radius: 5px;
+    border: solid 1px #333;
+    color: #333;
+    background-color: #eee;
+    cursor: pointer;
+    width: 100%;
+ }
+
+#suggestions{
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    font-size: 12px;
+}
+
+#suggestions li:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+
+#concepts-list{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#concepts-list div{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 8fr 1fr 1fr;
+    width: 100%;
+    line-height: 20px;
+    vertical-align: middle;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-size:12px;
+}
+
+#concepts-list input{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: black;
+}
+#concepts-list button{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bold;
+}
+
+#concepts-list button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    
+}
+
+#concepts-list .expansion{
+    border: none;
+    display: block;
+}
+#concepts-list .expansion .classSection{
+    display: block;
+    width: 90%;
+}
+
+#concepts-list .expansion .classrow{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 8fr 2fr ;
+    width: 100%;
+    line-height: 15px;
+    vertical-align: middle;
+    margin-top: 5px;
+    border: none;
+}
+
+
+#concepts-list .expansion input{
+    height: 20px;
+    width: 20px;
+}
+
+#concepts-list .expansion button{
+    padding: 5px;
+    width: 100%;
+}

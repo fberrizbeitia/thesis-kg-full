@@ -1,0 +1,1672 @@
+[02-Jan-2026 17:47:45 UTC] PHP Warning:  Undefined variable $aboutPattern in /home/pancho/Projects/kg/app/Model/GraphDB.php on line 81
+[02-Jan-2026 17:47:45 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                ?thesis schema:name ?title.
+              	?thesis schema:description ?description.
+                ?thesis schema:identifier ?identifier.
+                ?thesis thesis:program ?program.
+                ?thesis schema:about <https://www.wikidata.org/wiki/Q340>.?thesis schema:about <https://www.wikidata.org/wiki/Q509329>.?thesis schema:about <https://www.wikidata.org/wiki/Q142092>.?thesis schema:about <https://www.wikidata.org/wiki/Q139406>.?thesis schema:about <https://www.wikidata.org/wiki/Q142196>.?thesis schema:about <https://www.wikidata.org/wiki/Q141505>.?thesis schema:about <https://www.wikidata.org/wiki/Q141754>.?thesis schema:about <https://www.wikidata.org/wiki/Q142436>.?thesis schema:about <https://www.wikidata.org/wiki/Q142035>.?thesis schema:about <https://www.wikidata.org/wiki/Q141623>.?thesis schema:about <https://www.wikidata.org/wiki/Q141551>.?thesis schema:about <https://www.wikidata.org/wiki/Q142064>.?thesis schema:about <https://www.wikidata.org/wiki/Q142170>.?thesis schema:about <https://www.wikidata.org/wiki/Q141500>.?thesis schema:about <https://www.wikidata.org/wiki/Q139427>.?thesis schema:about <https://www.wikidata.org/wiki/Q729382>.?thesis schema:about <https://www.wikidata.org/wiki/Q139568>.?thesis schema:about <https://www.wikidata.org/wiki/Q139190>.?thesis schema:about <https://www.wikidata.org/wiki/Q138841>.?thesis schema:about <https://www.wikidata.org/wiki/Q139104>.?thesis schema:about <https://www.wikidata.org/wiki/Q139109>.?thesis schema:about <https://www.wikidata.org/wiki/Q141748>.?thesis schema:about <https://www.wikidata.org/wiki/Q141924>.?thesis schema:about <https://www.wikidata.org/wiki/Q142271>.?thesis schema:about <https://www.wikidata.org/wiki/Q141492>.?thesis schema:about <https://www.wikidata.org/wiki/Q340>.?thesis schema:about <https://www.wikidata.org/wiki/Q3393522>.?thesis schema:about <https://www.wikidata.org/wiki/Q3461735>.?thesis schema:about <https://www.wikidata.org/wiki/Q3463156>.?thesis schema:about <https://www.wikidata.org/wiki/Q141399>.?thesis schema:about <https://www.wikidata.org/wiki/Q141389>.?thesis schema:about <https://www.wikidata.org/wiki/Q141590>.?thesis schema:about <https://www.wikidata.org/wiki/Q142333>.?thesis schema:about <https://www.wikidata.org/wiki/Q139497>.?thesis schema:about <https://www.wikidata.org/wiki/Q139101>.?thesis schema:about <https://www.wikidata.org/wiki/Q139398>.?thesis schema:about <https://www.wikidata.org/wiki/Q141522>.?thesis schema:about <https://www.wikidata.org/wiki/Q3462465>.?thesis schema:about <https://www.wikidata.org/wiki/Q141921>.?thesis schema:about <https://www.wikidata.org/wiki/Q142192>.?thesis schema:about <https://www.wikidata.org/wiki/Q3462944>.?thesis schema:about <https://www.wikidata.org/wiki/Q142156>.?thesis schema:about <https://www.wikidata.org/wiki/Q142190>.?thesis schema:about <https://www.wikidata.org/wiki/Q142180>.?thesis schema:about <https://www.wikidata.org/wiki/Q141711>.?thesis schema:about <https://www.wikidata.org/wiki/Q142076>.?thesis schema:about <https://www.wikidata.org/wiki/Q142014>.?thesis schema:about <https://www.wikidata.org/wiki/Q142017>.?thesis schema:about <https://www.wikidata.org/wiki/Q142087>.?thesis schema:about <https://www.wikidata.org/wiki/Q3303708>.?thesis schema:about <https://www.wikidata.org/wiki/Q142306>.?thesis schema:about <https://www.wikidata.org/wiki/Q141445>.?thesis schema:about <https://www.wikidata.org/wiki/Q142162>.?thesis schema:about <https://www.wikidata.org/wiki/Q139088>.?thesis schema:about <https://www.wikidata.org/wiki/Q3231881>.?thesis schema:about <https://www.wikidata.org/wiki/Q142117>.?thesis schema:about <https://www.wikidata.org/wiki/Q141943>.?thesis schema:about <https://www.wikidata.org/wiki/Q3462609>.?thesis schema:about <https://www.wikidata.org/wiki/Q2514459>.?thesis schema:about <https://www.wikidata.org/wiki/Q141957>.?thesis schema:about <https://www.wikidata.org/wiki/Q3463407>.?thesis schema:about <https://www.wikidata.org/wiki/Q139040>.?thesis schema:about <https://www.wikidata.org/wiki/Q139588>.?thesis schema:about <https://www.wikidata.org/wiki/Q139019>.?thesis schema:about <https://www.wikidata.org/wiki/Q3555064>.?thesis schema:about <https://www.wikidata.org/wiki/Q138997>.?thesis schema:about <https://www.wikidata.org/wiki/Q139474>.?thesis schema:about <https://www.wikidata.org/wiki/Q139503>.?thesis schema:about <https://www.wikidata.org/wiki/Q141547>.?thesis schema:about <https://www.wikidata.org/wiki/Q141998>.?thesis schema:about <https://www.wikidata.org/wiki/Q142391>.?thesis schema:about <https://www.wikidata.org/wiki/Q141963>.?thesis schema:about <https://www.wikidata.org/wiki/Q3462497>.?thesis schema:about <https://www.wikidata.org/wiki/Q142426>.?thesis schema:about <https://www.wikidata.org/wiki/Q3462941>.?thesis schema:about <https://www.wikidata.org/wiki/Q3462939>.?thesis schema:about <https://www.wikidata.org/wiki/Q141406>.?thesis schema:about <https://www.wikidata.org/wiki/Q1001672>.?thesis schema:about <https://www.wikidata.org/wiki/Q3518578>.?thesis schema:about <https://www.wikidata.org/wiki/Q141810>.?thesis schema:about <https://www.wikidata.org/wiki/Q142069>.?thesis schema:about <https://www.wikidata.org/wiki/Q139437>.?thesis schema:about <https://www.wikidata.org/wiki/Q2934041>.
+            }
+[02-Jan-2026 17:56:31 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                {?thesis schema:about <https://www.wikidata.org/wiki/Q340>}.UNION {?thesis schema:about <https://www.wikidata.org/wiki/Q3462609>}.UNION {?thesis schema:about <https://www.wikidata.org/wiki/Q2514459>}.UNION {?thesis schema:about <https://www.wikidata.org/wiki/Q141957>}.
+                ?thesis schema:name ?title.
+              	?thesis schema:description ?description.
+                ?thesis schema:identifier ?identifier.
+                ?thesis thesis:program ?program.
+                
+            }
+[02-Jan-2026 17:56:31 UTC] Wikidata Error: HTTP request for SPARQL query failed
+[02-Jan-2026 18:01:26 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                # Define the values first inside the block
+                VALUES ?topic { 
+                    ?thesis schema:about <https://www.wikidata.org/wiki/Q340>.?thesis schema:about <https://www.wikidata.org/wiki/Q3462609>.?thesis schema:about <https://www.wikidata.org/wiki/Q2514459>.?thesis schema:about <https://www.wikidata.org/wiki/Q141957>.
+                }
+                
+                # Use the variable to find the thesis
+                ?thesis schema:about ?topic .
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 18:01:26 UTC] Wikidata Error: HTTP request for SPARQL query failed
+[02-Jan-2026 18:03:11 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                # Define the values first inside the block
+                VALUES ?topic { 
+                    <https://www.wikidata.org/wiki/Q340>.<https://www.wikidata.org/wiki/Q3462609>.<https://www.wikidata.org/wiki/Q2514459>.<https://www.wikidata.org/wiki/Q141957>.
+                }
+                
+                # Use the variable to find the thesis
+                ?thesis schema:about ?topic .
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 18:03:11 UTC] Wikidata Error: HTTP request for SPARQL query failed
+[02-Jan-2026 18:04:22 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                # Define the values first inside the block
+                VALUES ?topic { 
+                    <https://www.wikidata.org/wiki/Q340><https://www.wikidata.org/wiki/Q3462609><https://www.wikidata.org/wiki/Q2514459><https://www.wikidata.org/wiki/Q141957>
+                }
+                
+                # Use the variable to find the thesis
+                ?thesis schema:about ?topic .
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 18:04:54 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                # Define the values first inside the block
+                VALUES ?topic { 
+                    <https://www.wikidata.org/wiki/Q7942>
+                }
+                
+                # Use the variable to find the thesis
+                ?thesis schema:about ?topic .
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 18:05:12 UTC] 
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX schema: <https://schema.org/>
+        PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+        SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                    ?thesis schema:identifier "993385".	
+                    ?thesis thesis:program ?program.
+                    ?thesis thesis:advisor  ?advisor.
+                    ?advisor schema:identifier ?identifier.	
+                    ?advisor schema:familyName ?familyName.
+                    ?advisor schema:givenName ?givenName
+            }
+        
+[02-Jan-2026 18:05:23 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT DISTINCT ?wikidataURL ?title ?description
+                WHERE {
+                    ?thesis thesis:advisor ?advisor.
+                    ?advisor schema:identifier "268e17cf-d8d5-4e8b-b892-b44a3ebc906c".
+                    ?thesis schema:about ?concept.
+                    ?concept schema:url ?wikidataURL.
+                    ?concept schema:name ?title.
+                    ?concept schema:description ?description
+                    
+}
+        
+[02-Jan-2026 18:05:40 UTC] 
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT DISTINCT ?wikidataURL ?title ?description
+                WHERE {
+                    ?thesis schema:identifier "993385".
+                    ?thesis schema:about ?concept.
+                    ?concept schema:url ?wikidataURL.
+                    ?concept schema:name ?title.
+                    ?concept schema:description ?description
+                }
+           
+[02-Jan-2026 18:05:47 UTC] 
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX schema: <https://schema.org/>
+        PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+        SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                    ?thesis schema:identifier "993385".	
+                    ?thesis thesis:program ?program.
+                    ?thesis thesis:advisor  ?advisor.
+                    ?advisor schema:identifier ?identifier.	
+                    ?advisor schema:familyName ?familyName.
+                    ?advisor schema:givenName ?givenName
+            }
+        
+[02-Jan-2026 18:05:49 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?identifier ?title ?description ?program 
+                WHERE {
+                    ?thesis schema:name ?title.
+                    ?thesis schema:description ?description.
+                    ?thesis schema:identifier ?identifier.
+                    ?thesis thesis:program ?program.
+                    ?thesis thesis:advisor ?advisor.
+                    ?advisor schema:identifier "268e17cf-d8d5-4e8b-b892-b44a3ebc906c"	
+                }
+        
+[02-Jan-2026 18:10:34 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                # Define the values first inside the block
+                VALUES ?topic { 
+                    <https://www.wikidata.org/wiki/Q75>
+                }
+                
+                # Use the variable to find the thesis
+                ?thesis schema:about ?topic .
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 18:10:58 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                <https://www.wikidata.org/wiki/Q75> 
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 18:10:58 UTC] Wikidata Error: HTTP request for SPARQL query failed
+[02-Jan-2026 18:13:19 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                # Define the values first inside the block
+                VALUES ?topic { 
+                    <https://www.wikidata.org/wiki/Q75>
+                }
+                
+                # Use the variable to find the thesis
+                ?thesis schema:about ?topic .
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 18:13:19 UTC] Wikidata Error: HTTP request for SPARQL query failed
+[02-Jan-2026 18:15:41 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                # Define the values first inside the block
+                VALUES ?topic { 
+                    <https://www.wikidata.org/wiki/Q75>
+                }
+                
+                # Use the variable to find the thesis
+                ?thesis schema:about ?topic .
+
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 18:16:14 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+         SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                # Define the values first inside the block
+                VALUES ?topic { 
+                    <https://www.wikidata.org/wiki/Q75>
+                }
+                
+                # Use the variable to find the thesis
+                ?thesis schema:about ?topic .
+
+              	?thesis thesis:program ?program.
+                ?thesis schema:author  ?author.
+                ?author schema:identifier ?identifier.
+                ?author schema:familyName ?familyName.
+              	?author schema:givenName ?givenName
+         }
+[02-Jan-2026 18:16:18 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+         SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                 WHERE {
+                # Define the values first inside the block
+                VALUES ?topic { 
+                    <https://www.wikidata.org/wiki/Q75>
+                }
+                
+                # Use the variable to find the thesis
+                ?thesis schema:about ?topic .
+              	?thesis thesis:program ?program.
+                ?thesis thesis:advisor  ?advisor.
+                ?advisor schema:identifier ?identifier.
+                ?advisor schema:familyName ?familyName.
+              	?advisor schema:givenName ?givenName
+         }
+[02-Jan-2026 18:16:18 UTC] Wikidata Error: HTTP request for SPARQL query failed
+[02-Jan-2026 18:19:31 UTC] PHP Warning:  Undefined variable $topicPattern in /home/pancho/Projects/kg/app/Model/GraphDB.php on line 87
+[02-Jan-2026 18:19:31 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic {  }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 18:20:12 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q75> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 18:20:17 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+         SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q75> }
+                            ?thesis schema:about ?topic .
+                         
+              	?thesis thesis:program ?program.
+                ?thesis schema:author  ?author.
+                ?author schema:identifier ?identifier.
+                ?author schema:familyName ?familyName.
+              	?author schema:givenName ?givenName
+         }
+[02-Jan-2026 18:20:19 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+         SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q75> }
+                            ?thesis schema:about ?topic .
+                         
+              	?thesis thesis:program ?program.
+                ?thesis thesis:advisor  ?advisor.
+                ?advisor schema:identifier ?identifier.
+                ?advisor schema:familyName ?familyName.
+              	?advisor schema:givenName ?givenName
+         }
+[02-Jan-2026 18:20:22 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q75> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 18:20:30 UTC] 
+        
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?concept ?title  ?description (COUNT(?concept) AS ?count)
+            WHERE{
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q75> }
+                            ?thesis schema:about ?topic .
+                         
+                ?thesis schema:about ?concept.
+                ?concept schema:name ?title.
+                ?concept schema:description ?description
+            }
+            GROUP BY ?concept ?title ?description
+            ORDER BY DESC (?count)
+        
+[02-Jan-2026 18:22:22 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q193370> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 18:22:51 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q518076> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 18:22:56 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:Q518076 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:Q518076 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:Q518076 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 18:23:34 UTC] 
+        SELECT DISTINCT ?relatedItem ?relatedItemLabel ?relatedItemDescription  WHERE {
+            
+            ?relatedItem wdt:P31 wd:Q578521 .
+             
+            # 3. Exclude the original item
+            FILTER(?relatedItem != wd:Q578521)
+            
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 100
+        
+[02-Jan-2026 18:23:42 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q518076><https://www.wikidata.org/wiki/Q1810072><https://www.wikidata.org/wiki/Q247123><https://www.wikidata.org/wiki/Q617452><https://www.wikidata.org/wiki/Q1896248><https://www.wikidata.org/wiki/Q1474128><https://www.wikidata.org/wiki/Q518076><https://www.wikidata.org/wiki/Q1629121><https://www.wikidata.org/wiki/Q2042095><https://www.wikidata.org/wiki/Q551476><https://www.wikidata.org/wiki/Q403031><https://www.wikidata.org/wiki/Q1571112><https://www.wikidata.org/wiki/Q1612609><https://www.wikidata.org/wiki/Q1324904><https://www.wikidata.org/wiki/Q1325316><https://www.wikidata.org/wiki/Q1628888><https://www.wikidata.org/wiki/Q1629887><https://www.wikidata.org/wiki/Q1714436><https://www.wikidata.org/wiki/Q2117999><https://www.wikidata.org/wiki/Q1628875> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 18:23:52 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:http://www.wikidata.org/entity/Q1629121 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:http://www.wikidata.org/entity/Q1629121 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:http://www.wikidata.org/entity/Q1629121 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 18:23:55 UTC] Wikidata Error: HTTP request for SPARQL query failed
+[02-Jan-2026 18:24:00 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:http://www.wikidata.org/entity/Q1474128 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:http://www.wikidata.org/entity/Q1474128 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:http://www.wikidata.org/entity/Q1474128 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 18:24:00 UTC] Wikidata Error: HTTP request for SPARQL query failed
+[02-Jan-2026 18:24:12 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:http://www.wikidata.org/entity/Q1810072 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:http://www.wikidata.org/entity/Q1810072 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:http://www.wikidata.org/entity/Q1810072 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 18:24:13 UTC] Wikidata Error: HTTP request for SPARQL query failed
+[02-Jan-2026 19:00:46 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q11660> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 19:01:03 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?identifier ?title ?description ?author ?advisor
+                WHERE {
+                    ?thesis schema:identifier ?identifier.
+                    ?thesis schema:name ?title.
+                    ?thesis schema:description ?description.
+                    ?thesis schema:identifier ?program.
+                    ?thesis schema:author ?author.
+                  	?thesis thesis:advisor ?advisor.
+                  	?thesis thesis:program "Film Studies".
+                }
+        
+        
+[02-Jan-2026 19:02:43 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q11660> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 19:11:22 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic {  }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 19:11:39 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:Q11660 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:Q11660 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:Q11660 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 19:11:54 UTC] 
+        SELECT DISTINCT ?relatedItem ?relatedItemLabel ?relatedItemDescription  WHERE {
+            # subclass of
+            ?relatedItem wdt:P279 wd:Q1156402 .
+             
+            # 3. Exclude the original item
+            FILTER(?relatedItem != wd:Q1156402)
+            
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 100
+        
+[02-Jan-2026 19:12:39 UTC] 
+        SELECT DISTINCT ?relatedItem ?relatedItemLabel ?relatedItemDescription  WHERE {
+            # subclass of
+            ?relatedItem wdt:P279 wd:Q21198 .
+             
+            # 3. Exclude the original item
+            FILTER(?relatedItem != wd:Q21198)
+            
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 100
+        
+[02-Jan-2026 19:12:45 UTC] 
+        SELECT DISTINCT ?relatedItem ?relatedItemLabel ?relatedItemDescription  WHERE {
+            # subclass of
+            ?relatedItem wdt:P279 wd:Q21198 .
+             
+            # 3. Exclude the original item
+            FILTER(?relatedItem != wd:Q21198)
+            
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 100
+        
+[02-Jan-2026 19:12:59 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q518076> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 19:13:02 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:Q518076 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:Q518076 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:Q518076 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 19:13:11 UTC] 
+        SELECT DISTINCT ?relatedItem ?relatedItemLabel ?relatedItemDescription  WHERE {
+            
+            ?relatedItem wdt:P31 wd:Q578521 .
+             
+            # 3. Exclude the original item
+            FILTER(?relatedItem != wd:Q578521)
+            
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 100
+        
+[02-Jan-2026 19:13:21 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q518076><https://www.wikidata.org/wiki/Q1810072><https://www.wikidata.org/wiki/Q247123><https://www.wikidata.org/wiki/Q617452><https://www.wikidata.org/wiki/Q1896248><https://www.wikidata.org/wiki/Q1474128><https://www.wikidata.org/wiki/Q518076><https://www.wikidata.org/wiki/Q1629121><https://www.wikidata.org/wiki/Q2042095><https://www.wikidata.org/wiki/Q551476><https://www.wikidata.org/wiki/Q403031><https://www.wikidata.org/wiki/Q1571112><https://www.wikidata.org/wiki/Q1612609><https://www.wikidata.org/wiki/Q1324904><https://www.wikidata.org/wiki/Q1325316><https://www.wikidata.org/wiki/Q1628888><https://www.wikidata.org/wiki/Q1629887><https://www.wikidata.org/wiki/Q1714436><https://www.wikidata.org/wiki/Q2117999><https://www.wikidata.org/wiki/Q1628875> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 19:13:28 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:http://www.wikidata.org/entity/Q247123 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:http://www.wikidata.org/entity/Q247123 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:http://www.wikidata.org/entity/Q247123 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 19:13:28 UTC] Wikidata Error: HTTP request for SPARQL query failed
+[02-Jan-2026 19:17:24 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:Q518076 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:Q518076 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:Q518076 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 19:17:32 UTC] 
+        SELECT DISTINCT ?relatedItem ?relatedItemLabel ?relatedItemDescription  WHERE {
+            
+            ?relatedItem wdt:P31 wd:Q578521 .
+             
+            # 3. Exclude the original item
+            FILTER(?relatedItem != wd:Q578521)
+            
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 100
+        
+[02-Jan-2026 19:17:40 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:Q1810072 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:Q1810072 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:Q1810072 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 19:17:55 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:Q1474128 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:Q1474128 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:Q1474128 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 19:18:50 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q332154> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 19:19:04 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:Q332154 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:Q332154 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:Q332154 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 19:19:18 UTC] 
+        SELECT DISTINCT ?relatedItem ?relatedItemLabel ?relatedItemDescription  WHERE {
+            # subclass of
+            ?relatedItem wdt:P279 wd:Q2070979 .
+             
+            # 3. Exclude the original item
+            FILTER(?relatedItem != wd:Q2070979)
+            
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 100
+        
+[02-Jan-2026 19:19:34 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q332154><https://www.wikidata.org/wiki/Q332154><https://www.wikidata.org/wiki/Q2270907><https://www.wikidata.org/wiki/Q38123><https://www.wikidata.org/wiki/Q4692577><https://www.wikidata.org/wiki/Q3705873><https://www.wikidata.org/wiki/Q71242543><https://www.wikidata.org/wiki/Q191089><https://www.wikidata.org/wiki/Q6005911><https://www.wikidata.org/wiki/Q2076450><https://www.wikidata.org/wiki/Q1660191> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 19:19:47 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q332154><https://www.wikidata.org/wiki/Q332154><https://www.wikidata.org/wiki/Q2270907><https://www.wikidata.org/wiki/Q38123><https://www.wikidata.org/wiki/Q4692577><https://www.wikidata.org/wiki/Q3705873><https://www.wikidata.org/wiki/Q71242543><https://www.wikidata.org/wiki/Q191089><https://www.wikidata.org/wiki/Q6005911><https://www.wikidata.org/wiki/Q2076450><https://www.wikidata.org/wiki/Q1660191> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 19:20:03 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q4692577><https://www.wikidata.org/wiki/Q3705873><https://www.wikidata.org/wiki/Q71242543><https://www.wikidata.org/wiki/Q191089><https://www.wikidata.org/wiki/Q6005911><https://www.wikidata.org/wiki/Q2076450><https://www.wikidata.org/wiki/Q1660191> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 19:20:07 UTC] 
+        
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?concept ?title  ?description (COUNT(?concept) AS ?count)
+            WHERE{
+                VALUES ?topic {  }
+                            ?thesis schema:about ?topic .
+                         
+                ?thesis schema:about ?concept.
+                ?concept schema:name ?title.
+                ?concept schema:description ?description
+            }
+            GROUP BY ?concept ?title ?description
+            ORDER BY DESC (?count)
+        
+[02-Jan-2026 19:20:21 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q332154> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 19:20:27 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?identifier ?title ?description ?author ?advisor
+                WHERE {
+                    ?thesis schema:identifier ?identifier.
+                    ?thesis schema:name ?title.
+                    ?thesis schema:description ?description.
+                    ?thesis schema:identifier ?program.
+                    ?thesis schema:author ?author.
+                  	?thesis thesis:advisor ?advisor.
+                  	?thesis thesis:program "Civil Engineering".
+                }
+        
+        
+[02-Jan-2026 19:20:46 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+         SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q332154> }
+                            ?thesis schema:about ?topic .
+                         
+              	?thesis thesis:program ?program.
+                ?thesis thesis:advisor  ?advisor.
+                ?advisor schema:identifier ?identifier.
+                ?advisor schema:familyName ?familyName.
+              	?advisor schema:givenName ?givenName
+         }
+[02-Jan-2026 19:20:53 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT DISTINCT ?identifier ?familyName ?givenName
+                WHERE {
+                        ?thesis thesis:advisor ?advisor.
+                        ?advisor schema:identifier "5c013092-6c83-4262-9dcb-5c15495da541".
+                        ?thesis schema:author  ?author.
+                        ?author schema:identifier ?identifier.	
+                        ?author schema:familyName ?familyName.
+                        ?author schema:givenName ?givenName
+                }
+        
+[02-Jan-2026 19:21:03 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT DISTINCT ?identifier ?familyName ?givenName
+                WHERE {
+                        ?thesis thesis:advisor ?advisor.
+                        ?advisor schema:identifier "5e7c87ec-00b4-4943-9511-e7ed40d9ea28".
+                        ?thesis schema:author  ?author.
+                        ?author schema:identifier ?identifier.	
+                        ?author schema:familyName ?familyName.
+                        ?author schema:givenName ?givenName
+                }
+        
+[02-Jan-2026 19:21:21 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?identifier ?title ?description ?program 
+                WHERE {
+                    ?thesis schema:name ?title.
+                    ?thesis schema:description ?description.
+                    ?thesis schema:identifier ?identifier.
+                    ?thesis thesis:program ?program.
+                    ?thesis thesis:advisor ?advisor.
+                    ?advisor schema:identifier "5c013092-6c83-4262-9dcb-5c15495da541"	
+                }
+        
+[02-Jan-2026 19:21:26 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q332154> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 19:21:44 UTC] 
+        
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?concept ?title  ?description (COUNT(?concept) AS ?count)
+            WHERE{
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q332154> }
+                            ?thesis schema:about ?topic .
+                         
+                ?thesis schema:about ?concept.
+                ?concept schema:name ?title.
+                ?concept schema:description ?description
+            }
+            GROUP BY ?concept ?title ?description
+            ORDER BY DESC (?count)
+        
+[02-Jan-2026 19:22:13 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q11081> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 19:22:33 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q11081> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 19:23:46 UTC] 
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX schema: <https://schema.org/>
+        PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+        SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                    ?thesis schema:identifier "995023".	
+                    ?thesis thesis:program ?program.
+                    ?thesis schema:author  ?author.
+                    ?author schema:identifier ?identifier.	
+                    ?author schema:familyName ?familyName.
+                    ?author schema:givenName ?givenName
+            }
+        
+[02-Jan-2026 19:23:50 UTC] 
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX schema: <https://schema.org/>
+        PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+        SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                    ?thesis schema:identifier "995023".	
+                    ?thesis thesis:program ?program.
+                    ?thesis thesis:advisor  ?advisor.
+                    ?advisor schema:identifier ?identifier.	
+                    ?advisor schema:familyName ?familyName.
+                    ?advisor schema:givenName ?givenName
+            }
+        
+[02-Jan-2026 19:23:53 UTC] 
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT DISTINCT ?wikidataURL ?title ?description
+                WHERE {
+                    ?thesis schema:identifier "995023".
+                    ?thesis schema:about ?concept.
+                    ?concept schema:url ?wikidataURL.
+                    ?concept schema:name ?title.
+                    ?concept schema:description ?description
+                }
+           
+[02-Jan-2026 19:56:31 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q15716656> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 19:56:34 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:Q15716656 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:Q15716656 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:Q15716656 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 19:57:07 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q113403137> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 19:57:10 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:Q113403137 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:Q113403137 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:Q113403137 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 19:57:30 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q931309> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 20:02:09 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+         SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q931309> }
+                            ?thesis schema:about ?topic .
+                         
+              	?thesis thesis:program ?program.
+                ?thesis thesis:advisor  ?advisor.
+                ?advisor schema:identifier ?identifier.
+                ?advisor schema:familyName ?familyName.
+              	?advisor schema:givenName ?givenName
+         }
+[02-Jan-2026 20:02:20 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?identifier ?title ?description ?program 
+                WHERE {
+                    ?thesis schema:name ?title.
+                    ?thesis schema:description ?description.
+                    ?thesis schema:identifier ?identifier.
+                    ?thesis thesis:program ?program.
+                    ?thesis thesis:advisor ?advisor.
+                    ?advisor schema:identifier "a336a801-a43e-40f7-b0b4-9b21558fd221"	
+                }
+        
+[02-Jan-2026 20:02:25 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?identifier ?title ?description ?program 
+                WHERE {
+                    ?thesis schema:name ?title.
+                    ?thesis schema:description ?description.
+                    ?thesis schema:identifier ?identifier.
+                    ?thesis thesis:program ?program.
+                    ?thesis thesis:advisor ?advisor.
+                    ?advisor schema:identifier "a270329b-65aa-4575-9964-9356d2aca927"	
+                }
+        
+[02-Jan-2026 20:02:33 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?identifier ?title ?description ?program 
+                WHERE {
+                    ?thesis schema:name ?title.
+                    ?thesis schema:description ?description.
+                    ?thesis schema:identifier ?identifier.
+                    ?thesis thesis:program ?program.
+                    ?thesis thesis:advisor ?advisor.
+                    ?advisor schema:identifier "eca5b6b7-47dc-40f0-b7c6-10c6ae689a45"	
+                }
+        
+[02-Jan-2026 20:03:36 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q931309> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 20:03:40 UTC] 
+        
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?concept ?title  ?description (COUNT(?concept) AS ?count)
+            WHERE{
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q931309> }
+                            ?thesis schema:about ?topic .
+                         
+                ?thesis schema:about ?concept.
+                ?concept schema:name ?title.
+                ?concept schema:description ?description
+            }
+            GROUP BY ?concept ?title ?description
+            ORDER BY DESC (?count)
+        
+[02-Jan-2026 20:04:04 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 20:04:10 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 20:04:22 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 20:05:12 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 21:22:00 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q8849> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 21:22:07 UTC] 
+        SELECT DISTINCT ?subclassOfclass ?subclassOfclassLabel ?partOfclass ?partOfclassLabel ?instanceOfClass ?instanceOfClassLabel  WHERE {
+            {wd:Q8849 wdt:P279 ?subclassOfclass .
+            } UNION
+            {wd:Q8849 wdt:P361 ?partOfclass . 
+            } UNION
+            {wd:Q8849 wdt:P31 ?instanceOfClass . 
+            }
+                   
+            SERVICE wikibase:label { bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'. }
+            }
+            LIMIT 20
+        
+[02-Jan-2026 21:22:25 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 21:22:38 UTC] 
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX schema: <https://schema.org/>
+        PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+        SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                    ?thesis schema:identifier "993825".	
+                    ?thesis thesis:program ?program.
+                    ?thesis thesis:advisor  ?advisor.
+                    ?advisor schema:identifier ?identifier.	
+                    ?advisor schema:familyName ?familyName.
+                    ?advisor schema:givenName ?givenName
+            }
+        
+[02-Jan-2026 21:22:42 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 21:23:18 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 21:23:22 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+         SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                         
+              	?thesis thesis:program ?program.
+                ?thesis schema:author  ?author.
+                ?author schema:identifier ?identifier.
+                ?author schema:familyName ?familyName.
+              	?author schema:givenName ?givenName
+         }
+[02-Jan-2026 21:23:26 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+         SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                         
+              	?thesis thesis:program ?program.
+                ?thesis thesis:advisor  ?advisor.
+                ?advisor schema:identifier ?identifier.
+                ?advisor schema:familyName ?familyName.
+              	?advisor schema:givenName ?givenName
+         }
+[02-Jan-2026 21:23:29 UTC] 
+        
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?concept ?title  ?description (COUNT(?concept) AS ?count)
+            WHERE{
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                         
+                ?thesis schema:about ?concept.
+                ?concept schema:name ?title.
+                ?concept schema:description ?description
+            }
+            GROUP BY ?concept ?title ?description
+            ORDER BY DESC (?count)
+        
+[02-Jan-2026 21:23:31 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 21:23:49 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 21:23:51 UTC] 
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT DISTINCT ?wikidataURL ?title ?description
+                WHERE {
+                    ?thesis schema:identifier "993825".
+                    ?thesis schema:about ?concept.
+                    ?concept schema:url ?wikidataURL.
+                    ?concept schema:name ?title.
+                    ?concept schema:description ?description
+                }
+           
+[02-Jan-2026 21:24:23 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078><https://www.wikidata.org/wiki/Q17084460> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 21:24:44 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[02-Jan-2026 21:24:50 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[02-Jan-2026 21:24:57 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+         SELECT DISTINCT (count(?id) AS ?numberOfTheses)  ?identifier
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q17084460> }
+                            ?thesis schema:about ?topic .
+                        
+        
+                ?thesis schema:identifier ?id.
+				?thesis thesis:program ?identifier.
+                
+            }
+        GROUP BY ?identifier 
+        ORDER BY DESC(?numberOfTheses) ?identifier 
+[18-Jan-2026 18:05:01 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/> 
+
+            SELECT DISTINCT ?identifier ?title ?description ?program 
+            WHERE {
+                
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q17084460> }
+                            ?thesis schema:about ?topic .
+                        
+                
+                # Fetch details
+                ?thesis schema:name ?title .
+                ?thesis schema:description ?description .
+                ?thesis schema:identifier ?identifier .
+                ?thesis thesis:program ?program .
+            }
+        
+[18-Jan-2026 18:08:24 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+         SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q17084460> }
+                            ?thesis schema:about ?topic .
+                         
+              	?thesis thesis:program ?program.
+                ?thesis thesis:advisor  ?advisor.
+                ?advisor schema:identifier ?identifier.
+                ?advisor schema:familyName ?familyName.
+              	?advisor schema:givenName ?givenName
+         }
+[18-Jan-2026 18:08:43 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+         SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078><https://www.wikidata.org/wiki/Q17084460> }
+                            ?thesis schema:about ?topic .
+                         
+              	?thesis thesis:program ?program.
+                ?thesis thesis:advisor  ?advisor.
+                ?advisor schema:identifier ?identifier.
+                ?advisor schema:familyName ?familyName.
+              	?advisor schema:givenName ?givenName
+         }
+[18-Jan-2026 18:08:57 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?identifier ?title ?description ?program 
+                WHERE {
+                    ?thesis schema:name ?title.
+                    ?thesis schema:description ?description.
+                    ?thesis schema:identifier ?identifier.
+                    ?thesis thesis:program ?program.
+                    ?thesis thesis:advisor ?advisor.
+                    ?advisor schema:identifier "8ae2a4ed-43fe-4c2d-a02d-34b45ca9c179"	
+                }
+        
+[18-Jan-2026 18:09:16 UTC] PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+         PREFIX schema: <https://schema.org/>
+         PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+         SELECT DISTINCT ?identifier ?familyName ?givenName ?program 
+            WHERE {
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                         
+              	?thesis thesis:program ?program.
+                ?thesis thesis:advisor  ?advisor.
+                ?advisor schema:identifier ?identifier.
+                ?advisor schema:familyName ?familyName.
+              	?advisor schema:givenName ?givenName
+         }
+[18-Jan-2026 18:09:29 UTC] 
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?identifier ?title ?description ?program 
+                WHERE {
+                    ?thesis schema:name ?title.
+                    ?thesis schema:description ?description.
+                    ?thesis schema:identifier ?identifier.
+                    ?thesis thesis:program ?program.
+                    ?thesis thesis:advisor ?advisor.
+                    ?advisor schema:identifier "c0928445-8013-42f2-b9b1-2b3f2fffa505"	
+                }
+        
+[18-Jan-2026 18:09:54 UTC] 
+        
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX schema: <https://schema.org/>
+            PREFIX thesis: <http://www.semanticweb.org/fberrizb/ontologies/2025/5/thesis/>
+
+            SELECT ?concept ?title  ?description (COUNT(?concept) AS ?count)
+            WHERE{
+                VALUES ?topic { <https://www.wikidata.org/wiki/Q12078> }
+                            ?thesis schema:about ?topic .
+                         
+                ?thesis schema:about ?concept.
+                ?concept schema:name ?title.
+                ?concept schema:description ?description
+            }
+            GROUP BY ?concept ?title ?description
+            ORDER BY DESC (?count)
+        

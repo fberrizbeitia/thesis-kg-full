@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='styles.css'>
+    <link rel='stylesheet' href='tab.css'>
+    <link rel='stylesheet' href='wikidata.css'>
+</head>
+
+<body>
+
+    <div id="main-container" class="main-container">
+        <div id="start-container" class="step-container">
+
+            <div id="concepts">
+
+                <div class="form-search-bar">
+                    <input id="search-bar" type="text" placeholder="start typing to search" class="form-text-box" autocomplete="off">
+                    <ul id="suggestions"></ul>
+                  <!--  <button type="button" class="form-btn" onclick="addConcept()">Add</button> -->
+                </div>
+                <div id="concepts-list" class="form-list-container">
+
+                </div>
+                <div class="form-button-menu">
+                    <button type="button" class="form-button-menu-btn" onclick="thesesByConcept()">Theses</button>
+                    <button type="button" class="form-button-menu-btn" onclick="authorsByConcept()">Authors</button>
+                    <button type="button" class="form-button-menu-btn" onclick="advisorsByConcept()">Advisors</button>
+                    <button type="button" class="form-button-menu-btn" onclick="programsByConcept()">Programs</button>
+                    <button type="button" class="form-button-menu-btn" onclick="getCoConcepts()">Concepts</button>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <template id="template-step-container">
+        <div id="step-container" class="step-container">
+            <div class="step-container-header">
+                <h2 id="step-title"></h2>
+                <button id="step-close-btn">X</button>
+            </div>
+
+            <div id="step-result-container" class="step-result-container">
+
+            </div>
+        </div>
+    </template>
+
+    <template id="template-step-result-row">
+        <div class="step-reulst-row">
+            <div class="step-result-content"></div>
+            <div class="form-button-menu">
+                <button id="theses-btn" type="button" class="form-button-menu-btn" onclick="">Theses</button>
+                <button id="author-btn" type="button" class="form-button-menu-btn" onclick="">Authors</button>
+                <button id="advisor-btn" type="button" class="form-button-menu-btn" onclick="">Advisors</button>
+                <button id="programs-btn" type="button" class="form-button-menu-btn" onclick="">Programs</button>
+                <button id="concepts-btn" type="button" class="form-button-menu-btn" onclick="">Concepts</button>
+            </div>
+        </div>
+    </template>
+</body>
+<script src='index.js'></script>
+<script src='tab.js'></script>
+<script src='wikidata.js'></script>
+
+</html>
