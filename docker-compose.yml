@@ -1,0 +1,29 @@
+services:
+  apache:
+    build: './apache/'
+    ports:
+      - "8080:80"
+    volumes:
+      - ./app/:/var/www/html/
+
+  php:
+    build: './php/'
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./app/:/var/www/html/
+    depends_on:
+      - blazegraph
+      
+
+  # Blazegraph Service
+  blazegraph:
+    image: lyrasis/blazegraph:2.1.5
+    container_name: blazegraph
+    ports:
+      - "9999:8080"
+    volumes:
+      - blazegraph-data:/data
+
+volumes:
+  blazegraph-data:

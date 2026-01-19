@@ -6,7 +6,8 @@ require_once '../vendor/autoload.php';
 
 class GraphDB{
 
-    private $sparqlQueryEndpoint = 'http://localhost:9999/blazegraph/sparql'; 
+    //private $sparqlQueryEndpoint = 'http://localhost:9999/bigdata/sparql'; 
+    private $sparqlQueryEndpoint = 'http://blazegraph:8080/bigdata/sparql'; 
     private $wikidataEnpoint = 'https://query.wikidata.org/sparql';
     public $sparqlClient;
     public $wikidataClient;
